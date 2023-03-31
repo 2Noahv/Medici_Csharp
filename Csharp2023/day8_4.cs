@@ -5,7 +5,7 @@ namespace Csharp2023
 	public abstract class Car
 	{
 		//추상화 클래스
-		int Speed = 0; // 한정자 생략시 private
+		public int Speed = 0; // 한정자 생략시 private
 
 		void UpSpeed(int speed)
 		{
